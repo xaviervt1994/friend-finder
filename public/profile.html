@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Profile</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <header>
+      <button id="logoutBtn">Log Out</button>
+    </header>
+
+    <section class="profile-container">
+      <h1>Your Profile</h1>
+
+      <label for="bio">Bio</label><br />
+      <textarea
+        id="bio"
+        rows="4"
+        placeholder="Tell us a bit about yourself..."
+      ></textarea>
+
+      <h3>Update Your Interests</h3>
+      <div id="tagList" class="tag-list"></div>
+
+      <button id="saveBtn">Save Changes</button>
+      <p id="status"></p>
+    </section>
+
+    <script type="module" src="/src/profile.js"></script>
+  </body>
+</html>

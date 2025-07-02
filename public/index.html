@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find Friends App</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <section class="landing">
+      <h1>Find Local Friends</h1>
+      <p>Based on shared hobbies and interests.</p>
+      <button id="startBtn">Get Started</button>
+    </section>
+    <script type="module">
+      document.getElementById("startBtn").addEventListener("click", () => {
+        window.location.href = "/auth.html";
+      });
+    </script>
+  </body>
+</html>

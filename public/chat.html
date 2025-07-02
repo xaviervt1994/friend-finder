@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <header>
+      <button id="logoutBtn">Log Out</button>
+    </header>
+
+    <section class="chat-container">
+      <h1>Chat</h1>
+      <label for="recipient">Chat With (Email):</label>
+      <input id="recipient" placeholder="example@email.com" />
+
+      <div id="chatBox" class="chat-box"></div>
+
+      <div class="chat-input">
+        <input id="message" placeholder="Type a message..." />
+        <button id="sendBtn">Send</button>
+      </div>
+    </section>
+
+    <script type="module" src="/src/chat.js"></script>
+  </body>
+</html>
