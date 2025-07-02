@@ -7,7 +7,7 @@ import { getFirestore } from "firebase/firestore";
 
 // Your actual Firebase config
 const firebaseConfig = {
-  apiKey: "AIzaSyBDQaudcQAr0A2P7pZJqTh3ZdP5blG75wQ",
+  apiKey: "AIzaSyCDbcQN0bT0K_yOPDVS7sKrQNbyKQj7-X8",
   authDomain: "friend-finder-f25a4.firebaseapp.com",
   projectId: "friend-finder-f25a4",
   storageBucket: "friend-finder-f25a4.appspot.com", // Fixed typo here
